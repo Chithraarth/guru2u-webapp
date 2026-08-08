@@ -1,0 +1,1 @@
+{"version":3,"file":"useVoiceRecorder.d.ts","sourceRoot":"","sources":["../../src/audio/useVoiceRecorder.ts"],"names":[],"mappings":"AAMA,MAAM,MAAM,cAAc,GAAG,MAAM,GAAG,WAAW,GAAG,QAAQ,GAAG,SAAS,CAAC;AAkBzE,wBAAgB,gBAAgB;;0BAMe,OAAO,CAAC,IAAI,CAAC;0BAoBnB,IAAI;2BAQH,IAAI;yBAQN,OAAO,CAAC,IAAI,CAAC;EAqBpD"}
