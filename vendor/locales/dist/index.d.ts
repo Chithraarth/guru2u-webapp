@@ -23,7 +23,7 @@ export declare const translations: {
             backToArchives: string;
             changeLanguage: string;
         };
-        clerk: {
+        auth: {
             signInTitle: string;
             signInSubtitle: string;
             signUpTitle: string;
@@ -475,7 +475,7 @@ export declare const translations: {
             backToArchives: string;
             changeLanguage: string;
         };
-        clerk: {
+        auth: {
             signInTitle: string;
             signInSubtitle: string;
             signUpTitle: string;
@@ -927,7 +927,7 @@ export declare const translations: {
             backToArchives: string;
             changeLanguage: string;
         };
-        clerk: {
+        auth: {
             signInTitle: string;
             signInSubtitle: string;
             signUpTitle: string;
@@ -1379,7 +1379,7 @@ export declare const translations: {
             backToArchives: string;
             changeLanguage: string;
         };
-        clerk: {
+        auth: {
             signInTitle: string;
             signInSubtitle: string;
             signUpTitle: string;
@@ -1831,7 +1831,7 @@ export declare const translations: {
             backToArchives: string;
             changeLanguage: string;
         };
-        clerk: {
+        auth: {
             signInTitle: string;
             signInSubtitle: string;
             signUpTitle: string;
@@ -2283,7 +2283,7 @@ export declare const translations: {
             backToArchives: string;
             changeLanguage: string;
         };
-        clerk: {
+        auth: {
             signInTitle: string;
             signInSubtitle: string;
             signUpTitle: string;
@@ -2735,7 +2735,7 @@ export declare const translations: {
             backToArchives: string;
             changeLanguage: string;
         };
-        clerk: {
+        auth: {
             signInTitle: string;
             signInSubtitle: string;
             signUpTitle: string;
@@ -3187,7 +3187,7 @@ export declare const translations: {
             backToArchives: string;
             changeLanguage: string;
         };
-        clerk: {
+        auth: {
             signInTitle: string;
             signInSubtitle: string;
             signUpTitle: string;
@@ -3639,7 +3639,7 @@ export declare const translations: {
             backToArchives: string;
             changeLanguage: string;
         };
-        clerk: {
+        auth: {
             signInTitle: string;
             signInSubtitle: string;
             signUpTitle: string;
@@ -4091,7 +4091,7 @@ export declare const translations: {
             backToArchives: string;
             changeLanguage: string;
         };
-        clerk: {
+        auth: {
             signInTitle: string;
             signInSubtitle: string;
             signUpTitle: string;

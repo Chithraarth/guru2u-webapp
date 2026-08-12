@@ -21,7 +21,7 @@ declare const en: {
         backToArchives: string;
         changeLanguage: string;
     };
-    clerk: {
+    auth: {
         signInTitle: string;
         signInSubtitle: string;
         signUpTitle: string;

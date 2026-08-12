@@ -27,10 +27,6 @@ export default function PalmReadingPage() {
           queryClient.invalidateQueries({ queryKey: getGetReadingStatsQueryKey() });
         },
         onError: (err: any) => {
-          if (err?.status === 402) {
-            window.location.assign(`${import.meta.env.BASE_URL}pricing?limit=reached`);
-            return;
-          }
           toast({
             title: t("palm.errorTitle"),
             description: err.message || t("palm.errorDesc"),

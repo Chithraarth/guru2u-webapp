@@ -3,7 +3,7 @@ import { Link, useLocation } from "wouter";
 import { cn } from "@/lib/utils";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "@/components/language-switcher";
-import { Sparkles, Library, Home, Gem, LogOut, LogIn, User } from "lucide-react";
+import { Sparkles, Library, Home, LogOut, LogIn } from "lucide-react";
 import { useAuth } from "@/lib/auth-context";
 import { signOutUser } from "@/lib/firebase";
 
@@ -54,28 +54,6 @@ export function Layout({ children }: LayoutProps) {
               <Library className="w-4 h-4" />
               <span className="hidden sm:inline">{t("nav.history")}</span>
             </Link>
-            <Link
-              href="/pricing"
-              className={cn(
-                "flex items-center gap-1.5 px-3 py-2 rounded-full text-sm font-medium transition-colors",
-                location === "/pricing" ? "bg-primary/10 text-primary" : "text-muted-foreground hover:bg-muted hover:text-foreground"
-              )}
-            >
-              <Gem className="w-4 h-4" />
-              <span className="hidden sm:inline">{t("nav.plans")}</span>
-            </Link>
-            {user && (
-              <Link
-                href="/profile"
-                className={cn(
-                  "flex items-center gap-1.5 px-3 py-2 rounded-full text-sm font-medium transition-colors",
-                  location === "/profile" ? "bg-primary/10 text-primary" : "text-muted-foreground hover:bg-muted hover:text-foreground"
-                )}
-              >
-                <User className="w-4 h-4" />
-                <span className="hidden sm:inline">{t("nav.profile", "Profile")}</span>
-              </Link>
-            )}
             <LanguageSwitcher />
             {!user && (
               <Link
