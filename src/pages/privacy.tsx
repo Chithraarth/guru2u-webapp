@@ -115,8 +115,8 @@ export default function PrivacyPage() {
         <p>
           If you have questions about this policy or wish to request deletion of your data,
           contact us at{' '}
-          <a href="mailto:support@guru2u.com" className="text-primary underline">
-            support@guru2u.com
+          <a href="mailto:support@thechiguru.com" className="text-primary underline">
+            support@thechiguru.com
           </a>
           .
         </p>

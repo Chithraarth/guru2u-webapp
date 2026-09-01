@@ -18,6 +18,7 @@ import NotFound from '@/pages/not-found';
 import SignInPage from '@/pages/sign-in';
 import SignUpPage from '@/pages/sign-up';
 import PrivacyPage from '@/pages/privacy';
+import DeleteAccountPage from '@/pages/delete-account';
 import { LanguageGate, hasChosenLocale } from '@/components/language-gate';
 
 const queryClient = new QueryClient({
@@ -46,6 +47,7 @@ function Router() {
         <Route path="/sign-in" component={SignInPage} />
         <Route path="/sign-up" component={SignUpPage} />
         <Route path="/privacy" component={PrivacyPage} />
+        <Route path="/delete-account" component={DeleteAccountPage} />
         <Route path="/face">{() => <Protected><FaceReadingPage /></Protected>}</Route>
         <Route path="/palm">{() => <Protected><PalmReadingPage /></Protected>}</Route>
         <Route path="/voice">{() => <Protected><VoiceReadingPage /></Protected>}</Route>
