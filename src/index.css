@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Syne:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap');
 @layer theme, base, components, utilities;
 @import 'tailwindcss';
 @import 'tw-animate-css';
@@ -48,41 +48,39 @@
 }
 
 :root {
-  --app-font-sans: 'Outfit', sans-serif;
-  --app-font-display: 'Syne', sans-serif;
-  
-  /* Mystical Amethyst Light Theme */
-  --background: 270 30% 98%; /* Very soft lavender-tinted off-white */
-  --foreground: 270 40% 15%; /* Deep eggplant/indigo */
-  
-  --card: 270 20% 100%;
-  --card-foreground: 270 40% 15%;
-  --card-border: 270 20% 90%;
-  
-  --popover: 270 20% 100%;
-  --popover-foreground: 270 40% 15%;
-  --popover-border: 270 20% 90%;
-  
-  /* The bold choice: Amethyst */
-  --primary: 265 65% 55%; 
+  --app-font-sans: 'Figtree', system-ui, sans-serif;
+  --app-font-display: 'Figtree', system-ui, sans-serif;
+
+  /* Rosewood: same palette as the mobile app and the landing page */
+  --background: 345 100% 98%;   /* #FFF6F8 */
+  --foreground: 283 49% 14%;    /* #2A1235 */
+
+  --card: 0 0% 100%;
+  --card-foreground: 283 49% 14%;
+  --card-border: 338 45% 92%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 283 49% 14%;
+  --popover-border: 338 45% 92%;
+
+  --primary: 275 57% 27%;       /* #4A1D6B plum */
   --primary-foreground: 0 0% 100%;
-  
-  --secondary: 270 25% 92%;
-  --secondary-foreground: 270 50% 25%;
-  
-  --muted: 270 20% 94%;
-  --muted-foreground: 270 15% 45%;
-  
-  /* Mystical gold/brass accent */
-  --accent: 42 85% 65%;
-  --accent-foreground: 42 90% 15%;
-  
-  --destructive: 0 84% 60%;
+
+  --secondary: 332 47% 94%;
+  --secondary-foreground: 275 57% 27%;
+
+  --muted: 342 64% 96%;
+  --muted-foreground: 289 11% 49%;
+
+  --accent: 346 84% 64%;        /* #F0567A rose */
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 351 64% 53%;
   --destructive-foreground: 0 0% 100%;
 
-  --border: 270 20% 88%;
-  --input: 270 20% 88%;
-  --ring: 265 65% 55%;
+  --border: 338 45% 92%;
+  --input: 338 45% 92%;
+  --ring: 346 84% 64%;
 
   --radius: 1rem;
 }
